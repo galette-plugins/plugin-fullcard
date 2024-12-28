@@ -25,7 +25,7 @@ jobs:
 
     strategy:
       matrix:
-        php-versions: [ '8.1', '8.3' ]
+        php-versions: [ '8.1', '8.4' ]
         coverage: [none]
       fail-fast: false
 
@@ -77,7 +77,7 @@ jobs:
           cd galette-core/galette/plugins/plugin-fullcard
           composer require maglnet/composer-require-checker -W
           vendor/bin/composer-require-checker check --config-file=.composer-require-checker.config.json ../../composer.json
-        if: matrix.php-versions == '8.3'
+        if: matrix.php-versions == '8.4'
 
       - name: PHPStan checks
         run: |
