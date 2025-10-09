@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright © 2003-2024 The Galette Team
+ * Copyright © 2003-2025 The Galette Team
  *
  * This file is part of Galette (https://galette.eu).
  *
@@ -41,11 +41,11 @@ class PdfFullcard extends PdfAdhesionForm
     /**
      * Main constructor
      *
-     * @param ?Adherent   $adh   Adherent
+     * @param Adherent    $adh   Adherent
      * @param Db          $zdb   Database instance
      * @param Preferences $prefs Preferences instance
      */
-    public function __construct(Adherent $adh = null, Db $zdb, Preferences $prefs)
+    public function __construct(Adherent $adh, Db $zdb, Preferences $prefs)
     {
         $this->adh = $adh;
         $this->prefs = $prefs;

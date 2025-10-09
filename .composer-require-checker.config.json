@@ -23,6 +23,7 @@
 
     "// Galette constants (not detected as they are dynamically declared)",
     "GALETTE_ATTACHMENTS_PATH",
+    "GALETTE_ADAPTATIVE_CARDS",
     "GALETTE_BASE_PATH",
     "GALETTE_CACHE_DIR",
     "GALETTE_CARD_COLS",
@@ -38,6 +39,7 @@
     "GALETTE_DOWNLOADS_URI",
     "GALETTE_EXPORTS_PATH",
     "GALETTE_FILES_PATH",
+    "GALETTE_HOSTED",
     "GALETTE_IMPORTS_PATH",
     "GALETTE_LOGS_PATH",
     "GALETTE_MODE",
@@ -45,6 +47,7 @@
     "GALETTE_NIGHTLY",
     "GALETTE_PHOTOS_PATH",
     "GALETTE_PLUGINS_PATH",
+    "GALETTE_PLUGINS_DATA_PATH",
     "GALETTE_ROOT",
     "GALETTE_TELEMETRY_URI",
     "GALETTE_TEMPIMAGES_PATH",
@@ -58,6 +61,7 @@
     "GALETTE_MARIADB_MIN",
     "GALETTE_PGSQL_MIN",
     "GALETTE_DISPLAY_VERSION",
+    "GALETTE_TESTS",
     "GALETTE_PHP_MIN",
 
     "// Galette db constants (not detected as they are dynamically declared)",
@@ -105,7 +109,8 @@
     "DI\\Attribute\\Inject",
 
     "// Not detected, do not know why.",
-    "Psr\\Http\\Server\\RequestHandlerInterface"
+    "Psr\\Http\\Server\\RequestHandlerInterface",
+    "Install"
   ],
   "scan-files": [
     "*.php",
