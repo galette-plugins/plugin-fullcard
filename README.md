@@ -16,7 +16,7 @@ A [Galette](https://galette.eu) plugin to replace core PDF member cards (the one
 To use Galette Fullcard plugin, you'll need a reliable Galette version, and of course the plugin itself by either:
 
 * download latest stable version available from [Galette Fullcard plugin page](https://doc.galette.eu/en/master/plugins/fullcard.html)
-* use [Galette Fullcard plugin soure code from repository](http://doc.galette.eu/en/develop/development/git.html) (make sure you install third party dependencies), this solution requires some technical skills
+* use [Galette Fullcard plugin soure code from repository](https://doc.galette.eu/en/develop/development/git.html) (make sure you install third party dependencies), this solution requires some technical skills
 
 ### Français
 
@@ -32,4 +32,4 @@ Un plugin [Galette](https://galette.eu) pour remplacer les cartes PDF des adhér
 Pour utiliser le plugin Fullcard pour Galette, vous aurez besoin d'une version adéquate de Galette, ainsi que du plugin lui même :
 
 * télécharger la dernière version stable depuis la [page du  plugin Fullcard pour Galette](https://doc.galette.eu/en/master/plugins/fullcard.html)
-* utiliser [le code source du plugin Fullcard pour Galette depuis le dépôt](http://doc.galette.eu/en/develop/development/git.html) (assurez-vous d'installer les biliothèques tierces), cette solution requiert quelques compétences techniques
+* utiliser [le code source du plugin Fullcard pour Galette depuis le dépôt](https://doc.galette.eu/en/develop/development/git.html) (assurez-vous d'installer les biliothèques tierces), cette solution requiert quelques compétences techniques
