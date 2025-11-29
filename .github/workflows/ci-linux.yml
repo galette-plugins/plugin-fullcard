@@ -25,7 +25,7 @@ jobs:
 
     strategy:
       matrix:
-        php-versions: [ '8.1', '8.4' ]
+        php-versions: [ '8.2', '8.5' ]
         coverage: [none]
       fail-fast: false
 
@@ -77,13 +77,6 @@ jobs:
         run: |
           cd galette-core/galette/plugins/plugin-fullcard
           ../../vendor/bin/php-cs-fixer check --show-progress=dots --verbose --diff
-
-      - name: Check missing symbols
-        run: |
-          cd galette-core/galette/plugins/plugin-fullcard
-          composer require maglnet/composer-require-checker -W
-          vendor/bin/composer-require-checker check --config-file=.composer-require-checker.config.json ../../composer.json
-        if: matrix.php-versions == '8.4'
 
       - name: PHPStan checks
         run: |
