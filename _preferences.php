@@ -21,6 +21,6 @@
 
 declare(strict_types=1);
 
-$_preferences = array(
+$_preferences = [
     'pref_adhesion_form' => '\GaletteFullcard\PdfFullcard'
-);
+];
