@@ -21,10 +21,6 @@
 
 declare(strict_types=1);
 
-use GaletteFullcard\PdfFullcard;
-use Galette\Entity\Adherent;
-use Analog\Analog;
-
 //Constants and classes from plugin
 require_once $module['root'] . '/_config.inc.php';
 

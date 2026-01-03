@@ -56,8 +56,6 @@ class PdfFullcard extends PdfAdhesionForm
 
     /**
      * Get model
-     *
-     * @return ?PdfModel
      */
     protected function getModel(): ?PdfModel
     {
@@ -67,8 +65,6 @@ class PdfFullcard extends PdfAdhesionForm
 
     /**
      * Initialize PDF
-     *
-     * @return void
      */
     public function init(): void
     {
@@ -89,8 +85,6 @@ class PdfFullcard extends PdfAdhesionForm
 
     /**
      * Draw member cards
-     *
-     * @return void
      */
     private function drawCard(): void
     {
