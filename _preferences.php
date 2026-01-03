@@ -21,6 +21,6 @@
 
 declare(strict_types=1);
 
-$_preferences = [
+$_preferences = [ // phpcs:ignore SlevomatCodingStandard.Variables.UnusedVariable.UnusedVariable -- used from core Plugin class
     'pref_adhesion_form' => '\GaletteFullcard\PdfFullcard'
 ];
