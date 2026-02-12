@@ -21,13 +21,13 @@
 
 declare(strict_types=1);
 
+/** @var \Galette\Core\Plugins $this */
 $this->register(
-    'Galette Fullcard',         //Name
-    'Full member card as PDF',  //Short description
-    'Johan Cwiklinski',         //Author
-    '2.2.1',                    //Version
-    '1.2.0',                    //Galette compatible version
-    'fullcard',                 //routing name
-    '2025-12-08',               //Release date
-    []                          //Permissions needed
+    name: 'Galette Fullcard',        //Name
+    desc: 'Full member card as PDF', //Short description
+    author: 'Johan Cwiklinski',      //Author
+    version: '2.2.1',                //Version
+    compver: '1.2.0',                //Galette compatible version
+    route: 'fullcard',               //routing name
+    date: '2025-12-08'               //Release date
 );
