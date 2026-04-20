@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Copyright © 2021-2026 The Galette Team
+ * Copyright © 2003-2026 The Galette Team
  *
- * This file is part of Galette OAuth2 plugin (https://galette-community.github.io/plugin-oauth2/).
+ * This file is part of Galette (https://galette.eu).
  *
  * Galette is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *  GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with Galette OAuth2 plugin. If not, see <http://www.gnu.org/licenses/>.
+ * along with Galette. If not, see <http://www.gnu.org/licenses/>.
  */
 
 declare(strict_types=1);
