@@ -5,9 +5,6 @@ on:
     branches:
       - master
       - develop
-      - 'feature/*'
-      - 'hotfix/*'
-      - 'release/*'
     tags:
       - '*'
   pull_request:
@@ -25,7 +22,7 @@ jobs:
 
     strategy:
       matrix:
-        php-versions: [ '8.2', '8.5' ]
+        php-versions: [ '8.3', '8.5' ]
         coverage: [none]
       fail-fast: false
 
@@ -73,7 +70,7 @@ jobs:
           ../../vendor/bin/phpcs lib/ ./*.php
 
       - name: CS Fixer
-        if: matrix.php-versions == '8.1'
+        if: matrix.php-versions == '8.3'
         run: |
           cd galette-core/galette/plugins/plugin-fullcard
           ../../vendor/bin/php-cs-fixer check --show-progress=dots --verbose --diff
