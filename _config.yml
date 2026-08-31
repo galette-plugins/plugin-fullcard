@@ -26,9 +26,19 @@ tracker_url: https://bugs.galette.eu/projects/galette-plugin-fullcard
 # The language of a page comes from its directory, never from its front matter,
 # so Weblate only ever has to write `ref` and `title`. One entry per published
 # language; add one when a new translation reaches a publishable state.
+# The language of a page comes from its directory, never from its front matter,
+# so Weblate only ever has to write `ref` and `title`. Every language Galette
+# translates into is listed — see https://hosted.weblate.org/projects/galette/ —
+# so a translation Weblate adds is picked up without touching this file.
 defaults:
   - scope: {path: ""}
     values: {layout: default, lang: en}
+  - scope: {path: "ar"}
+    values: {lang: ar}
+  - scope: {path: "br"}
+    values: {lang: br}
+  - scope: {path: "ca"}
+    values: {lang: ca}
   - scope: {path: "de"}
     values: {lang: de}
   - scope: {path: "es"}
@@ -37,14 +47,26 @@ defaults:
     values: {lang: fr}
   - scope: {path: "it"}
     values: {lang: it}
+  - scope: {path: "nb_NO"}
+    values: {lang: nb_NO}
+  - scope: {path: "oc"}
+    values: {lang: oc}
+  - scope: {path: "ota"}
+    values: {lang: ota}
   - scope: {path: "pt"}
     values: {lang: pt}
   - scope: {path: "pt_BR"}
     values: {lang: pt_BR}
+  - scope: {path: "ru"}
+    values: {lang: ru}
+  - scope: {path: "si"}
+    values: {lang: si}
   - scope: {path: "sl"}
     values: {lang: sl}
   - scope: {path: "ta"}
     values: {lang: ta}
+  - scope: {path: "tr"}
+    values: {lang: tr}
   - scope: {path: "uk"}
     values: {lang: uk}
 
