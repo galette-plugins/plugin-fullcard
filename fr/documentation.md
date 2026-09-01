@@ -1,6 +1,6 @@
 ---
 title: Documentation
-description: Fiche d'adhérent complète en PDF
+description: Full member card as PDF
 ---
 
 Ce plugin a été développé pour [Borsalinux-fr (anciennement
