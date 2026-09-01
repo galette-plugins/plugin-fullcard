@@ -1,31 +1,30 @@
 ---
 title: Galette Fullcard
-description: Fiche d'adhérent complète en PDF
+description: Full member card as PDF
 ---
 
-Un plugin [Galette](https://galette.eu) qui remplace la fiche d'adhérent PDF
-fournie avec Galette — celle du cœur n'est pas très personnalisable, et ce
-plugin existe pour les associations qui ont besoin de leur propre mise en page.
+A [Galette](https://galette.eu) plugin that replaces the member card PDF shipped
+with Galette — the built-in one is not very customisable, so this plugin exists
+for associations that need their own layout.
 
-Il a été développé à l'origine pour
-[Borsalinux-fr (anciennement Fedora-Fr)](https://www.borsalinux-fr.org). La
-fiche produite peut être imprimée vide, à remplir à la main lors d'un événement,
-ou pré-remplie avec les informations d'un adhérent — pratique à joindre à un
-chèque pour un renouvellement d'adhésion.
+It was originally developed for [Borsalinux-fr (previously
+Fedora-Fr)](https://www.borsalinux-fr.org). The card it produces can be printed
+empty, to be filled in by hand during an event, or pre-filled with a member's
+information — handy to join to a cheque for a membership renewal.
 
 * [documentation](documentation.html)
-* [bogues et fonctionnalités](https://bugs.galette.eu/projects/galette-plugin-fullcard)
-* [code source](https://github.com/galette-plugins/plugin-fullcard)
-* listes de diffusion :
-  [utilisateurs](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/),
-  [développeurs](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/)
+* [bugs and features](https://bugs.galette.eu/projects/galette-plugin-fullcard)
+* [source code](https://github.com/galette-plugins/plugin-fullcard)
+* mailing lists:
+  [users](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/),
+  [developers](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/)
 
-Pour l'utiliser, vous aurez besoin d'une version suffisamment récente de
-Galette — celle qui est requise est indiquée en haut de cette page — ainsi que du
-plugin lui-même :
+To use it you need a recent enough Galette — the required version is shown at
+the top of this page — and the plugin itself, either by:
 
-* le télécharger avec les boutons en haut de cette page,
-* ou utiliser [le code source depuis le dépôt](https://github.com/galette-plugins/plugin-fullcard),
-  ce qui requiert quelques compétences techniques.
+* downloading it with the buttons at the top of this page,
+* or using the [source code from the
+  repository](https://github.com/galette-plugins/plugin-fullcard), which
+  requires some technical skills.
 
-Consultez la [documentation](documentation.html) pour les étapes d'installation.
+See the [documentation](documentation.html) for the installation steps.
