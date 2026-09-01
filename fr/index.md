@@ -3,9 +3,9 @@ title: Galette Fullcard
 description: Full member card as PDF
 ---
 
-A [Galette](https://galette.eu) plugin that replaces the member card PDF shipped
-with Galette — the built-in one is not very customisable, so this plugin exists
-for associations that need their own layout.
+Un plugin [Galette](https://galette.eu) qui remplace la carte membre PDF fournie
+avec Galette — celui qui est intégré n'est pas très personnalisable, ce plugin
+existe donc pour les associations qui ont besoin de leur propre mise en page.
 
 It was originally developed for [Borsalinux-fr (previously
 Fedora-Fr)](https://www.borsalinux-fr.org). The card it produces can be printed
