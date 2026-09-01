@@ -1,5 +1,4 @@
 ---
-ref: doc
 title: Dokumentation
 description: Full member card as PDF
 ---

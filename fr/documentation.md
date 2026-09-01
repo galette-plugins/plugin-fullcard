@@ -1,5 +1,4 @@
 ---
-ref: doc
 title: Documentation
 description: Fiche d'adhérent complète en PDF
 ---

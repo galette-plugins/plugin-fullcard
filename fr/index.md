@@ -1,5 +1,4 @@
 ---
-ref: home
 title: Galette Fullcard
 description: Fiche d'adhérent complète en PDF
 ---
