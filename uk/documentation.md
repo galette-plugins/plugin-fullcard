@@ -3,16 +3,22 @@ title: Документація
 description: Full member card as PDF
 ---
 
-Цей плагін був розроблений для [Borsalinux-fr (previously Fedora-Fr)](https://www.borsalinux-fr.org). Він утворює картку члена PDF, яка може бути порожньою (для використання під час подій тощо) або заповненою відомостями про члена (до якої можна приєднати перевірку на членство як приклад).
+Цей плагін був розроблений для [Borsalinux-fr (previously
+Fedora-Fr)](https://www.borsalinux-fr.org). Він утворює картку члена PDF, яка
+може бути порожньою (для використання під час подій тощо) або заповненою
+відомостями про члена (до якої можна приєднати перевірку на членство як
+приклад).
 
-**Note**: Починаючи з Galette `0.8.3`, надається картка члена PDF на основі моделей PDF. Установлення Fullcard `1.6` або новішої замінить цю модель.
+**Note**: Починаючи з Galette `0.8.3`, надається картка члена PDF на основі
+моделей PDF. Установлення Fullcard `1.6` або новішої замінить цю модель.
 
 ## Встановлення
 
 First of all, download the plugin: the two buttons at the top of this page link
 the latest release and the nightly build.
 
-Витягніть завантажений архів у каталог Galette `plugins`. Наприклад, ось вказівки під Linux (замініть `{url}` та `{version}` правильними значеннями):
+Витягніть завантажений архів у каталог Galette `plugins`. Наприклад, ось
+вказівки під Linux (замініть `{url}` та `{version}` правильними значеннями):
 
 ```bash
 $ cd /var/www/html/galette/plugins
@@ -20,8 +26,9 @@ $ wget {url}
 $ tar xjvf galette-plugin-fullcard-{version}.tar.bz2
 ```
 
-This plugin needs no database table, so nothing is required from the
-[Galette plugins management interface](https://doc.galette.eu/en/master/plugins/index.html#plugins-managment)
+This plugin needs no database table, so nothing is required from the [Galette
+plugins management
+interface](https://doc.galette.eu/en/master/plugins/index.html#plugins-managment)
 beyond enabling it. And that's it, *Fullcard* is installed. :)
 
 ## Plugin usage
@@ -43,4 +50,5 @@ The card layout lives in `lib/GaletteFullcard/PdfFullcard.php`, which extends
 Galette's `PdfAdhesionForm`. Unlike the built-in member card, it is drawn in
 code rather than from a PDF model, which is precisely the point: it gives you
 full control at the price of editing PHP. If your changes could be useful to
-others, [open a pull request](https://github.com/galette-plugins/plugin-fullcard/pulls).
+others, [open a pull
+request](https://github.com/galette-plugins/plugin-fullcard/pulls).
