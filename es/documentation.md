@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Documentación
 description: Full member card as PDF
 ---
 
