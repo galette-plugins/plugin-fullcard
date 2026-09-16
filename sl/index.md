@@ -1,6 +1,6 @@
 ---
 title: Galette Fullcard
-description: Full member card as PDF
+description: Izkaznica polnega člana kot PDF
 ---
 
 A [Galette](https://galette.eu) plugin that replaces the member card PDF shipped
