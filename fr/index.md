@@ -7,10 +7,11 @@ Un plugin [Galette](https://galette.eu) qui remplace la carte membre PDF fournie
 avec Galette — celui qui est intégré n'est pas très personnalisable, ce plugin
 existe donc pour les associations qui ont besoin de leur propre mise en page.
 
-It was originally developed for [Borsalinux-fr (previously
-Fedora-Fr)](https://www.borsalinux-fr.org). The card it produces can be printed
-empty, to be filled in by hand during an event, or pre-filled with a member's
-information — handy to join to a cheque for a membership renewal.
+Il a été initialement développé pour [Borsalinux-fr (anciennement Fedora-Fr)]
+(https://www.borsalinux-fr.org). La carte qu'il produit peut être imprimée vide,
+à remplir à la main lors d'un événement, ou pré-remplie avec les informations
+d'un adhérent — pratique pour se joindre à un chèque pour un renouvellement
+d'adhésion.
 
 * [documentation](documentation.html)
 * [bogues et
