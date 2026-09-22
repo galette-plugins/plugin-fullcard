@@ -1,6 +1,6 @@
 ---
 title: Dokumentacija
-description: Full member card as PDF
+description: Izkaznica polnega člana kot PDF
 ---
 
 Ta vtičnik je bil razvit za [Borsalinux-fr (prej
@@ -14,8 +14,8 @@ model nadomestila.
 
 ## Namestitev
 
-First of all, download the plugin: the two buttons at the top of this page link
-the latest release and the nightly build.
+Najprej prenesite vtičnik: dva gumba na vrhu te strani povezujeta najnovejšo
+izdajo in nočno gradnjo.
 
 Razširite prenesen arhiv v imenik Galette `plugins`. Na primer v Linuxu
 (zamenjajte `{url}` in `{version}` s pravilnimi vrednostmi):
@@ -26,29 +26,29 @@ $ wget {url}
 $ tar xjvf galette-plugin-fullcard-{version}.tar.bz2
 ```
 
-This plugin needs no database table, so nothing is required from the [Galette
-plugins management
-interface](https://doc.galette.eu/en/master/plugins/index.html#plugins-managment)
-beyond enabling it. And that's it, *Fullcard* is installed. :)
+Ta vtičnik ne potrebuje tabele zbirke podatkov, zato od [vmesnika za upravljanje
+vtičnikov
+Galette](https://doc.galette.eu/en/master/plugins/index.html#plugins-managment)
+ni potrebno ničesar, razen če ga omogočite. In to je to, *Fullcard* je nameščen.
+:)
 
-## Plugin usage
+## Uporaba vtičnika
 
-The plugin adds no menu entry of its own: it takes over the *Adhesion form* PDF
-that Galette already offers, so the existing links produce the Fullcard layout
-once the plugin is enabled.
+Vtičnik ne dodaja nobenega lastnega vnosa v meni: prevzame *Adhesion form* PDF,
+ki ga Galette že ponuja, tako da obstoječe povezave ustvarijo postavitev
+Fullcard, ko je vtičnik omogočen.
 
-A card pre-filled with a member's information comes from that member's page,
-under *Adhesion form*.
+Kartica, vnaprej izpolnjena s podatki o članu, je na strani tega člana pod
+*Pristopni obrazec*.
 
-An empty card, to be filled in by hand, comes from the member creation form and
-from the *Public pages* menu — the latter needs no login, which is what makes it
-usable as a paper form to hand out at an event.
+Prazna kartica, ki jo je treba izpolniti ročno, prihaja iz obrazca za
+ustvarjanje člana in iz menija *Javne strani* — slednji ne potrebuje prijave,
+zaradi česar je uporaben kot papirni obrazec za izročitev na dogodku.
 
-## Customising the card
+## Prilagajanje kartice
 
-The card layout lives in `lib/GaletteFullcard/PdfFullcard.php`, which extends
-Galette's `PdfAdhesionForm`. Unlike the built-in member card, it is drawn in
-code rather than from a PDF model, which is precisely the point: it gives you
-full control at the price of editing PHP. If your changes could be useful to
-others, [open a pull
-request](https://github.com/galette-plugins/plugin-fullcard/pulls).
+Postavitev kartice je v `lib/GaletteFullcard/PdfFullcard.php`, ki razširja
+Galettin `PdfAdhesionForm`. Za razliko od vgrajene članske izkaznice je narisana
+v kodi in ne iz modela PDF, kar je bistvo: daje vam popoln nadzor za ceno
+urejanja PHP. Če bi lahko bile vaše spremembe koristne za druge, [odprite
+zahtevo za vlečenje](https://github.com/galette-plugins/plugin-fullcard/pulls).
