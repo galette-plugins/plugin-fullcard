@@ -1,30 +1,30 @@
 ---
-title: Galette Fullcard
+title: Galette Članska
 description: Izkaznica polnega člana kot PDF
 ---
 
-A [Galette](https://galette.eu) plugin that replaces the member card PDF shipped
-with Galette — the built-in one is not very customisable, so this plugin exists
-for associations that need their own layout.
+Vtičnik [Galette](https://galette.eu), ki nadomešča člansko izkaznico PDF, ki je
+priložena Galette – vgrajenega ni mogoče zelo prilagoditi, zato ta vtičnik
+obstaja za združenja, ki potrebujejo lastno postavitev.
 
-It was originally developed for [Borsalinux-fr (previously
-Fedora-Fr)](https://www.borsalinux-fr.org). The card it produces can be printed
-empty, to be filled in by hand during an event, or pre-filled with a member's
-information — handy to join to a cheque for a membership renewal.
+Prvotno je bil razvit za [Borsalinux-fr (prej
+Fedora-Fr)](https://www.borsalinux-fr.org). Kartico, ki jo izdela, je mogoče
+natisniti prazno, jo ročno izpolniti med dogodkom ali vnaprej izpolniti s
+podatki o članu – priročno, da se pridružite čeku za obnovitev članstva.
 
-* [documentation](documentation.html)
-* [bugs and features](https://bugs.galette.eu/projects/galette-plugin-fullcard)
-* [source code](https://github.com/galette-plugins/plugin-fullcard)
-* mailing lists:
-  [users](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/),
-  [developers](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/)
+* [dokumentacija](documentation.html)
+* [napake in funkcije](https://bugs.galette.eu/projects/galette-plugin-fullcard)
+* [izvorna koda](https://github.com/galette-plugins/plugin-fullcard)
+* poštni seznami:
+  [uporabniki](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/),
+  [razvijalci](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/)
 
-To use it you need a recent enough Galette — the required version is shown at
-the top of this page — and the plugin itself, either by:
+Če ga želite uporabljati, potrebujete dovolj najnovejšo Galette - zahtevana
+različica je prikazana na vrhu te strani - in sam vtičnik, bodisi z:
 
-* downloading it with the buttons at the top of this page,
-* or using the [source code from the
-  repository](https://github.com/galette-plugins/plugin-fullcard), which
-  requires some technical skills.
+* prenos z gumbi na vrhu te strani,
+* ali z uporabo [izvorne kode iz
+  repozitorija](https://github.com/galette-plugins/plugin-fullcard), kar zahteva
+  nekaj tehničnega znanja.
 
-See the [documentation](documentation.html) for the installation steps.
+Glejte [dokumentacijo](documentation.html) za korake namestitve.
