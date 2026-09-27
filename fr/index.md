@@ -1,6 +1,6 @@
 ---
 title: Galette Fullcard
-description: Full member card as PDF
+description: Carte membre complète en PDF
 ---
 
 Un plugin [Galette](https://galette.eu) qui remplace la carte membre PDF fournie
