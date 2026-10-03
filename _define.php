@@ -13,8 +13,8 @@ $this->register(
     name: 'Galette Fullcard',        //Name
     desc: 'Full member card as PDF', //Short description
     author: 'Johan Cwiklinski',      //Author
-    version: '2.2.1',                //Version
+    version: '2.3.0',                //Version
     compver: '1.3.0',                //Galette compatible version
     route: 'fullcard',               //routing name
-    date: '2025-12-08'               //Release date
+    date: '2026-10-03'               //Release date
 );
