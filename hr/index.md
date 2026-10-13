@@ -1,30 +1,32 @@
 ---
 title: Galette Fullcard
-description: Full member card as PDF
+description: Potpuna pristupnica u PDF-u
 ---
 
-A [Galette](https://galette.eu) plugin that replaces the member card PDF shipped
-with Galette — the built-in one is not very customisable, so this plugin exists
-for associations that need their own layout.
+Dodatak za [Galette](https://galette.eu) koji zamjenjuje ugrađenu PDF
+pristupnicu. Budući da se ugrađeni obrazac ne može mnogo prilagođavati, dodatak
+je namijenjen udrugama kojima treba vlastiti raspored.
 
-It was originally developed for [Borsalinux-fr (previously
-Fedora-Fr)](https://www.borsalinux-fr.org). The card it produces can be printed
-empty, to be filled in by hand during an event, or pre-filled with a member's
-information — handy to join to a cheque for a membership renewal.
+Izvorno je razvijen za [Borsalinux-fr (ranije
+Fedora-Fr)](https://www.borsalinux-fr.org). Pristupnica se može ispisati prazna
+za ručno popunjavanje na događaju ili s podacima člana, primjerice za prilaganje
+čeku za obnovu članstva.
 
-* [documentation](documentation.html)
-* [bugs and features](https://bugs.galette.eu/projects/galette-plugin-fullcard)
-* [source code](https://github.com/galette-plugins/plugin-fullcard)
-* mailing lists:
-  [users](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/),
-  [developers](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/)
+* [dokumentacija](documentation.html)
+* [pogreške i nove
+  funkcije](https://bugs.galette.eu/projects/galette-plugin-fullcard)
+* [izvorni kod](https://github.com/galette-plugins/plugin-fullcard)
+* popisi za e-poštu:
+  [korisnici](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/),
+  [razvojni
+  tim](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/)
 
-To use it you need a recent enough Galette — the required version is shown at
-the top of this page — and the plugin itself, either by:
+Potrebna je dovoljno nova verzija Galettea; tražena verzija navedena je na vrhu
+stranice. Sam dodatak možete nabaviti:
 
-* downloading it with the buttons at the top of this page,
-* or using the [source code from the
-  repository](https://github.com/galette-plugins/plugin-fullcard), which
-  requires some technical skills.
+* preuzimanjem putem gumba na vrhu stranice,
+* ili uporabom [izvornog koda iz
+  repozitorija](https://github.com/galette-plugins/plugin-fullcard), za što je
+  potrebno tehničko znanje.
 
-See the [documentation](documentation.html) for the installation steps.
+Upute za instalaciju potražite u [dokumentaciji](documentation.html).
